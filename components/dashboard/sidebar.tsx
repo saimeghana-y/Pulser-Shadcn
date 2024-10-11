@@ -27,7 +27,7 @@ export function Sidebar() {
             <span className="sr-only">Toggle notifications</span>
           </Button>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 overflow-y-auto">
           <nav className="grid items-start px-2 text-sm font-medium lg:px-3">
             {navItems.map((item) => (
               <Link
@@ -45,7 +45,7 @@ export function Sidebar() {
             ))}
           </nav>
         </div>
-        <div className="mt-auto p-4">
+        <div className="mt-auto p-4 fixed bottom-0 left-0 w-56">
           <Card>
             <CardHeader className="p-1 pt-0 md:p-4">
               <CardTitle className="text-lg">Upgrade to Pro</CardTitle>

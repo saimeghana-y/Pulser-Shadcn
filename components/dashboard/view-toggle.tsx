@@ -8,7 +8,7 @@ interface ViewToggleProps {
 
 export function ViewToggle({ view, setView }: ViewToggleProps) {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between h-6">
       <div className="flex gap-2">
         <Button
           variant={view === 'cards' ? 'default' : 'outline'}
