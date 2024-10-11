@@ -14,7 +14,7 @@ export function ViewToggle({ view, setView }: ViewToggleProps) {
           variant={view === 'cards' ? 'default' : 'outline'}
           size="sm"
           onClick={() => setView('cards')}
-          className={`${view === 'cards' ? "bg-indigo-50 text-indigo-600 hover:bg-indigo-200" : "bg-white text-gray-500 hover:bg-indigo-50"} rounded-full text-base`}
+          className={`${view === 'cards' ? "bg-indigo-50 text-indigo-600 hover:bg-indigo-200" : "bg-white text-gray-500 hover:bg-indigo-50"} rounded-full text-sm`}
         >
           <Grid className="h-4 w-4 mr-2" />
           Cards
@@ -23,7 +23,7 @@ export function ViewToggle({ view, setView }: ViewToggleProps) {
           variant={view === 'table' ? 'default' : 'outline'}
           size="sm"
           onClick={() => setView('table')}
-          className={`${view === 'table' ? "bg-indigo-50 text-indigo-600 hover:bg-indigo-200" : "bg-white text-gray-500 hover:bg-indigo-50"} rounded-full text-base`}
+          className={`${view === 'table' ? "bg-indigo-50 text-indigo-600 hover:bg-indigo-200" : "bg-white text-gray-500 hover:bg-indigo-50"} rounded-full text-sm`}
         >
           <List className="h-4 w-4 mr-2" />
           Table
@@ -33,14 +33,14 @@ export function ViewToggle({ view, setView }: ViewToggleProps) {
         <Button
           variant="outline"
           size="sm"
-          className="bg-gray-100 text-gray-600 hover:bg-gray-200 rounded-full text-base"
+          className="bg-gray-100 text-gray-600 hover:bg-gray-200 rounded-full text-sm"
         >
           <Settings2 className="h-4 w-4" />
         </Button>
         <Button
           variant="default"
           size="sm"
-          className="bg-indigo-600 text-white hover:bg-indigo-700 rounded-full text-base"
+          className="bg-indigo-600 text-white hover:bg-indigo-700 rounded-full text-sm"
         >
           <Plus className="h-4 w-4 mr-2" />
           New card
