@@ -6,7 +6,13 @@ Easy to setup, customizable, quick, and responsive landing page starter built wi
 
 ## Preview
 
-![Next Landing Preview]()
+### Cards view
+
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/9688e77b-f3e9-4eed-aa63-887857ebdd58">
+
+### Table view
+
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/393dc81e-3dae-4331-a7ab-0bf421295f4a">
 
 ## License
 
