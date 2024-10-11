@@ -2,7 +2,7 @@
 
 Easy to setup, customizable, quick, and responsive landing page starter built with [Next.js](https://nextjs.org) and [shadcn/ui](https://ui.shadcn.com).
 
-- [Live Preview]( )
+- [Live Preview](https://pulser-shadcn.vercel.app/)
 
 ## Preview
 
